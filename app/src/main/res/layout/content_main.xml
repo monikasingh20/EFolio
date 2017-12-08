@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.deepbench.eventfolio.myproject.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ListView
+        android:id="@+id/eventListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:stackFromBottom="false"
+        android:layout_marginBottom="4dp"
+        android:divider="@android:color/transparent"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/event_item"/>
+
+</LinearLayout>

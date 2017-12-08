@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EventFolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_event">Create Event</string>
+</resources>
